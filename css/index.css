@@ -1,0 +1,50 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+    overflow: hidden;
+}
+body{
+	font-family: "Source Han Sans", "Noto CJK", "Arial";
+    background-size: 100% 100%;
+}
+img{
+	display: block;
+	width: 100%;
+}
+
+
+.content,
+.loading{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	perspective: 600px;
+}
+
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50% 0px;
+    transform-origin: 50% 50% 0px;
+}
+
+.main span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 129px;
+    height: 1170px;
+    margin-top: -585px;
+    margin-left: -64.5px;
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
